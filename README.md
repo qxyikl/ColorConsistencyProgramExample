@@ -20,3 +20,6 @@ This procedure is developed on python 3.6 (conda 4.10) under Window 10 system.
 The program interface is as follows：
 
 <img src="Program interface diagram.png" width="900px"/>
+
+After entering the training data, epochs, and model save path, you can start training the model.
+After inputting the prediction data and color mapping model, you can start predicting the data mapped by the model.

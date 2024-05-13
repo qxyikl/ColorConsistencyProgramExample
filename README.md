@@ -6,4 +6,4 @@ This project is developed for optimizing the color consistency between images.We
 
 Here is an example for demonstration below:
 
-<img src="Docs/example.png" width="900px"/>
+<img src="example.png" width="900px"/>

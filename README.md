@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This project is developed for optimizing the color consistency between images.We establish a color mapping model between overlapping areas of images based on convolutional neural networks, and apply this color mapping model to the entire image of the target image to achieve color consistency.
+This project is developed for optimizing the color consistency between images. We establish a color mapping model between overlapping areas of images based on convolutional neural networks, and apply this color mapping model to the entire image of the target image to achieve color consistency.
 
 Here is an example for demonstration below:
 
@@ -10,10 +10,12 @@ Here is an example for demonstration below:
 
 ## Usage
 
-### 1. Sample dataset:
-The training data is the patches of the overlapping area of the two images, which is stored in the folder 'dataset/trainingdata'. The input folder contains the target image data, and the label folder contains the reference image data.
-The prediction data is the patches of the whole target image, which is stored in the folder 'dataset/predictingdata/predict'.
-The folder 'dataset/predictingdata/result' is used to store the results after color consistency processing.
+The procedure and sample datasets can be downloaded from https://pan.baidu.com/s/11tplAx3WaHbkBvmreP85IA?pwd=20zj (Access code: 20zj) 
+
+### 1. Sample datasets:
+The training data is the patches of the overlapping area of the two images, which is stored in the folder 'datasets/trainingdata'. The input folder contains the target image data, and the label folder contains the reference image data.
+The prediction data is the patches of the whole target image, which is stored in the folder 'datasets/predictingdata/predict'.
+The folder 'datasets/predictingdata/result' is used to store the results after color consistency processing.
 
 ### 2. Project Configure:
 This procedure is developed on python 3.6 (conda 4.10) under Window 10 system.

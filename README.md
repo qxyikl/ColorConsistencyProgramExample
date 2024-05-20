@@ -10,7 +10,7 @@ Here is an example for demonstration below:
 
 ## Usage
 
-The procedure and sample datasets can be downloaded from https://pan.baidu.com/s/11tplAx3WaHbkBvmreP85IA?pwd=20zj (Access code: 20zj) 
+The sample datasets can be downloaded from https://pan.baidu.com/s/1TiUMhyIEcrypE7y7gQnFWQ?pwd=rBiy (Access code: rBiy) 
 
 ### 1. Sample datasets:
 The training data is the patches of the overlapping area of the two images, which is stored in the folder 'datasets/trainingdata'. The input folder contains the target image data, and the label folder contains the reference image data.
@@ -19,10 +19,7 @@ The folder 'datasets/predictingdata/result' is used to store the results after c
 
 ### 2. Project Configure:
 This procedure is developed on python 3.6 (conda 4.10) under Window 10 system.
-The program interface is as follows：
 
-<img src="Program interface diagram.png" width="900px"/>
+config.json: enter the training data (xxx/dataset/trainingdata), epochs, model save path (xxx/xxx.pkl), the prediction data (xxx/dataset/predictingdata) and color mapping model (xxx/xxx.pkl).
 
-After entering the training data, epochs, and model save path, you can start training the model.
-
-After inputting the prediction data and color mapping model, you can start predicting the data mapped by the model.
+After entering the corresponding attributes in the config.json, run the train&eval.py. You can see the color consistency results in xxx/dataset/predictingdata/result.

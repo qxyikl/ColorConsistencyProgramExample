@@ -1,0 +1,7 @@
+{
+    "trainfilefolder": "E:/dataset/trainingdata",
+    "epochnum": "10",
+    "tmodelname": "E:/ccunet.pkl",
+    "prefilefolder": "E:/dataset/predictingdata",
+    "pmodelname":"E:/ccunet.pkl"
+}
